@@ -5,4 +5,4 @@ Start-Sleep -Seconds 3
 Start-Process "http://localhost:8000"
 Start-Process "http://localhost:3000"
 cd frontend
-python -m http.server 3000
+python -m http.server 3000`
