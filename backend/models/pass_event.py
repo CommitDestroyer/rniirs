@@ -256,7 +256,7 @@ def pass_event_from_dict(d: dict, rec: dict) -> PassEvent:
 
     Args:
         d:   словарь с ключами aos, aos_az, max_el, max_el_time, max_el_az,
-             los, los_az, duration_s
+            los, los_az, duration_s
         rec: запись из SatelliteDB (dict с id, name, type, operator, norad_id)
     """
     return PassEvent(
